@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           # This name becomes the final .zip filename (e.g., Damned-Halls-0.1.0.zip)
-          name: ${{ env.MOD_NAME | replace(' ', '-') }}-${{ env.MOD_VERSION }}
+          name: ${{ replace(env.MOD_NAME, ' ', '-') }}-${{ env.MOD_VERSION }}
           
           path: |
             overrides/
