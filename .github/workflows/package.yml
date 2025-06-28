@@ -2,6 +2,7 @@ name: Create Modpack Package
 
 # This section defines when the workflow will run
 on:
+  # This allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -9,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Check out your repository code so we can access its files
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Read name and version from manifest.json to name the artifact
+      # Read name and version from manifest.json to name the final zip file
       - name: Read package info from manifest.json
         run: |
           MOD_NAME=$(jq -r '.name' manifest.json)
@@ -20,18 +22,15 @@ jobs:
 
           echo "MOD_NAME=${MOD_NAME}" >> $GITHUB_ENV
           echo "MOD_VERSION=${MOD_VERSION}" >> $GITHUB_ENV
-          
-          FILENAME="$(echo "$MOD_NAME" | tr ' ' '-')-${MOD_VERSION}.zip"
-          echo "ARTIFACT_FILENAME=${FILENAME}" >> $GITHUB_ENV
 
-      - name: Create zip package
-        run: |
-          echo "Creating zip file named: ${{ env.ARTIFACT_FILENAME }}"
-          zip -r ${{ env.ARTIFACT_FILENAME }} overrides/ modlist.html manifest.json
-
-      # Upload the .zip file as a GitHub artifact
-      - name: Upload Artifact
+      # Upload the specific files and folders as a zipped artifact
+      - name: Create and Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.MOD_NAME }}-${{ env.MOD_VERSION }}
-          path: ${{ env.ARTIFACT_FILENAME }}
+          # This name becomes the final .zip filename (e.g., Damned-Halls-0.1.0.zip)
+          name: ${{ env.MOD_NAME | replace(' ', '-') }}-${{ env.MOD_VERSION }}
+          
+          path: |
+            overrides/
+            modlist.html
+            manifest.json
