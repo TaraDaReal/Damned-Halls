@@ -6,43 +6,32 @@ on:
 
 jobs:
   build-and-package:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Read name and version from manifest.json
+      # Read name and version from manifest.json to name the artifact
       - name: Read package info from manifest.json
-        id: package-info
         run: |
-          # Read the name and version, -r flag removes quotes
           MOD_NAME=$(jq -r '.name' manifest.json)
           MOD_VERSION=$(jq -r '.version' manifest.json)
 
-          # Output the variables to the GitHub environment
           echo "MOD_NAME=${MOD_NAME}" >> $GITHUB_ENV
           echo "MOD_VERSION=${MOD_VERSION}" >> $GITHUB_ENV
           
-          # Sanitize the name for the filename (e.g., replace spaces with hyphens)
-          # and create the final filename.
           FILENAME="$(echo "$MOD_NAME" | tr ' ' '-')-${MOD_VERSION}.zip"
           echo "ARTIFACT_FILENAME=${FILENAME}" >> $GITHUB_ENV
 
-      # Create the .zip file with the correct structure
       - name: Create zip package
         run: |
           echo "Creating zip file named: ${{ env.ARTIFACT_FILENAME }}"
-          
-          (cd overrides && zip -r ../${{ env.ARTIFACT_FILENAME }} .)
-          
-          zip -j ${{ env.ARTIFACT_FILENAME }} modlist.html manifest.json
+          zip -r ${{ env.ARTIFACT_FILENAME }} overrides/ modlist.html manifest.json
 
+      # Upload the .zip file as a GitHub artifact
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          # The name of the artifact that will appear in the GitHub UI
           name: ${{ env.MOD_NAME }}-${{ env.MOD_VERSION }}
-          # The path to the file to upload
           path: ${{ env.ARTIFACT_FILENAME }}
