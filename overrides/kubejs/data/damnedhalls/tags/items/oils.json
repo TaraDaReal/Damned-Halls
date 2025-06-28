@@ -1,0 +1,13 @@
+{
+    "values": [
+        "thermal:tree_oil_bucket",
+        "thermal:creosote_bucket",
+        "thermal:crude_oil_bucket",
+        "thermal:heavy_oil_bucket",
+        "thermal:light_oil_bucket",
+        "immersiveengineering:creosote_bucket",
+        "immersiveengineering:plantoil_bucket",
+        "createaddition:seed_oil_bucket",
+        "ad_astra:oil_bucket"
+    ]
+}

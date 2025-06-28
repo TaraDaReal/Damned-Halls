@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "damnedhalls:tall",
+        "damnedhalls:powerful",
+        "origins:carnivore"
+
+    ],
+    "order": 1,
+    "impact": 3,
+    "icon": {
+        "item": "minecraft:cobblestone"
+    },
+    "name": "KR1M20N",
+    "description": "Custom Origin created for KR1M20N.\nA crazed murder drone left to roam an unknown world, making a living for itself."
+}

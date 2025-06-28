@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "custom_recipes"
+	group: "788EFC6477D4B0DD"
+	icon: "minecraft:crafting_table"
+	id: "2E125705E4E1B50D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Custom Recipes"
+}

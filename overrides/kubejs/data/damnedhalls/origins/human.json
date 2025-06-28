@@ -1,0 +1,12 @@
+{
+    "powers": [
+        ""
+    ],
+    "order": 10,
+    "impact": 0,
+    "icon": {
+        "item": "grass_block"
+    },
+    "name": "Basic Human",
+    "description": "A basic Human origin for the people without a custom Origin."
+}

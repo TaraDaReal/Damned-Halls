@@ -1,0 +1,9 @@
+{
+    "name": "§2§nSuperhero Landing",
+    "description": "You land with a special technique, allowing you to entirely avoid any kind of damage when doing so.",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    }
+}

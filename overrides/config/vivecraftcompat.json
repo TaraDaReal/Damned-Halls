@@ -1,0 +1,24 @@
+{
+  "elements": {
+    "af78b62f-45fe-4877-b6a3-cb859e908683": {
+      "pos": {
+        "x": -0.37338844,
+        "y": 0.8573389,
+        "z": -1.3151987
+      },
+      "enable": "always",
+      "rotation": {
+        "w": 0.9484073,
+        "x": -0.11030961,
+        "y": 0.29525596,
+        "z": 0.034341328
+      },
+      "elements": [
+        "minecraft:hotbar"
+      ],
+      "name": "Overlay 1",
+      "lock": "float",
+      "scale": 1.0
+    }
+  }
+}

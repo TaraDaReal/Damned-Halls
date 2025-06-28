@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "damnedhalls:size_toggle",
+        "damnedhalls:normal_mode",
+        "damnedhalls:puddle_mode",
+        "damnedhalls:weakest_body"
+    ],
+    "order": 1,
+    "impact": 1,
+    "icon": {
+        "item": "cobbled_deepslate"
+    },
+    "name": "Jax",
+    "description": "Custom Origin created for Jax.\n§c§lWIP!"
+}

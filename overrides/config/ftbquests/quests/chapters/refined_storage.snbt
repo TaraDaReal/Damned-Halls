@@ -1,0 +1,634 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "38D80AA02ABDB56E"
+	icon: "refinedstorage:creative_controller"
+	id: "77BFB159EE5ABAF0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["68108D83752F27D6"]
+			hide_until_deps_complete: true
+			id: "3DEA5965AF83B6B8"
+			tasks: [{
+				id: "48546A25D66CEBC0"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			title: "Refining some iron for Storage..."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DEA5965AF83B6B8"]
+			id: "49FE01B2C3AAAC43"
+			subtitle: "Runs it all."
+			tasks: [{
+				id: "4555E894D9C89351"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "The Heart of it all."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49FE01B2C3AAAC43"]
+			description: ["Just letting you know, you will need a way to generate power to charge your network! I personally recommend looking at Powah."]
+			id: "01A2567B75CCD5A1"
+			subtitle: "Charge!!"
+			tasks: [{
+				id: "3AC88FAB01AB264C"
+				title: "Some Assem- Power required!"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49FE01B2C3AAAC43"]
+			id: "530C970465433639"
+			subtitle: "Something feels off..."
+			tasks: [{
+				id: "415B287A39766DE0"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			title: "A familiar face!"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["530C970465433639"]
+			id: "72C10E7841751E7F"
+			subtitle: "That's MUCH better!"
+			tasks: [{
+				id: "3D612B3AAAFC2B14"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			title: "... Now I remember you!"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["530C970465433639"]
+			id: "407574B6FE2251D6"
+			subtitle: "Looking to make life easier? This is your best friend!"
+			tasks: [{
+				id: "1845F0E5814949B6"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			title: "Finding Patterns!"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["530C970465433639"]
+			id: "77C563726381BD27"
+			subtitle: "Where did you plan to put everything?"
+			tasks: [{
+				id: "426A7D9F34DD6BA1"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			title: "Almost forgot, the Body!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77C563726381BD27"]
+			id: "0E6006FD8AD92030"
+			tasks: [{
+				id: "3C2EB5806E491FB9"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E6006FD8AD92030"]
+			id: "6B4082DA3679FA5D"
+			tasks: [{
+				id: "5CAE75056F76DDC0"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B4082DA3679FA5D"]
+			id: "7F87E24C41B8E866"
+			tasks: [{
+				id: "63B7757A4B52AA33"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F87E24C41B8E866"]
+			id: "37A769680FCB76DA"
+			tasks: [{
+				id: "5CE2DE54DA068F14"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37A769680FCB76DA"]
+			id: "56F936698A46052B"
+			optional: true
+			subtitle: "We have Extra Disks, so even MORE STORAGE!"
+			tasks: [{
+				id: "533B0DD4339D4387"
+				title: "Extra Disks!"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E6006FD8AD92030"]
+			id: "025C0796EF79B5CA"
+			tasks: [{
+				id: "2B09B36CAAFAE331"
+				item: "refinedstorage:1k_storage_disk"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B4082DA3679FA5D"]
+			id: "39EB6C3051186DD9"
+			tasks: [{
+				id: "6B3CB9EC9E80597B"
+				item: "refinedstorage:4k_storage_disk"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F87E24C41B8E866"]
+			id: "53F989DA4EBB88B1"
+			tasks: [{
+				id: "64D32219448F734F"
+				item: "refinedstorage:16k_storage_disk"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37A769680FCB76DA"]
+			id: "119F2F691D3E50D1"
+			tasks: [{
+				id: "7E4866007388DC0D"
+				item: "refinedstorage:64k_storage_disk"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56F936698A46052B"]
+			hide_dependency_lines: true
+			id: "25CFC56836B11D04"
+			optional: true
+			tasks: [{
+				id: "7BD18320B18D77A3"
+				item: "extradisks:256k_storage_part"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25CFC56836B11D04"]
+			id: "3E8F95CB3ACCEE95"
+			optional: true
+			tasks: [{
+				id: "4073D85F7F437101"
+				item: "extradisks:1024k_storage_part"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E8F95CB3ACCEE95"]
+			id: "0A539BB50D91825A"
+			optional: true
+			tasks: [{
+				id: "67F18DF956A29CB1"
+				item: "extradisks:4096k_storage_part"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A539BB50D91825A"]
+			id: "7D69AEDE912D15FF"
+			optional: true
+			tasks: [{
+				id: "7DF785434885145D"
+				item: "extradisks:16384k_storage_part"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D69AEDE912D15FF"]
+			id: "42D106072CA10B66"
+			optional: true
+			subtitle: "STORE THE ENTIRE WORLD!"
+			tasks: [{
+				id: "27A6611813C92D6D"
+				title: "IT NEVER ENDS!"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25CFC56836B11D04"]
+			id: "1A4ADB7B3CD58E16"
+			optional: true
+			tasks: [{
+				id: "152AC24D78F5BB0B"
+				item: {
+					Count: 1
+					id: "extradisks:256k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3E8F95CB3ACCEE95"]
+			id: "527C805E3993FB11"
+			optional: true
+			tasks: [{
+				id: "75E61405C60F959F"
+				item: {
+					Count: 1
+					id: "extradisks:1024k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0A539BB50D91825A"]
+			id: "395D261E002DEAFB"
+			optional: true
+			tasks: [{
+				id: "3889739B4CEE025A"
+				item: {
+					Count: 1
+					id: "extradisks:4096k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D69AEDE912D15FF"]
+			id: "33B5304D2410FFBF"
+			optional: true
+			tasks: [{
+				id: "60867E2D790C5FC2"
+				item: {
+					Count: 1
+					id: "extradisks:16384k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["42D106072CA10B66"]
+			hide_dependency_lines: true
+			id: "4FF51C03E3C31522"
+			optional: true
+			tasks: [{
+				id: "63CE7EFDF3C497B3"
+				item: "extradisks:65536k_storage_part"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4FF51C03E3C31522"]
+			id: "1438EEAA0AD033C9"
+			optional: true
+			tasks: [{
+				id: "2705480F3079473B"
+				item: "extradisks:262144k_storage_part"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1438EEAA0AD033C9"]
+			id: "07904B0E784DCD1E"
+			optional: true
+			tasks: [{
+				id: "2D86F93722F499C5"
+				item: "extradisks:1048576k_storage_part"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["07904B0E784DCD1E"]
+			id: "48DA13EEE9E6D805"
+			optional: true
+			tasks: [{
+				id: "476E72CC6E17E9DE"
+				item: "extradisks:infinite_storage_part"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4FF51C03E3C31522"]
+			id: "609A680EA0C605F8"
+			optional: true
+			tasks: [{
+				id: "51316C2F419308BC"
+				item: {
+					Count: 1
+					id: "extradisks:65536k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1438EEAA0AD033C9"]
+			id: "62DC6561EF07BE16"
+			optional: true
+			tasks: [{
+				id: "6BBC4FA0A5EB2968"
+				item: {
+					Count: 1
+					id: "extradisks:262144k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["07904B0E784DCD1E"]
+			id: "69DF1B55920FC684"
+			optional: true
+			tasks: [{
+				id: "4E7631B394DE8CEB"
+				item: {
+					Count: 1
+					id: "extradisks:1048576k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["48DA13EEE9E6D805"]
+			id: "50B2683EF7A1D34F"
+			optional: true
+			tasks: [{
+				id: "1C9118998B54C2FC"
+				item: {
+					Count: 1
+					id: "extradisks:infinite_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"77C563726381BD27"
+				"407574B6FE2251D6"
+			]
+			id: "26518BD1BEBAA91A"
+			subtitle: "Sounds useless, but it really isn't!"
+			tasks: [{
+				id: "3C855F966C5388B5"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			title: "Automation!"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26518BD1BEBAA91A"]
+			id: "5F545870E0F84532"
+			subtitle: "Manage your Crafters! ... The name is obvious."
+			tasks: [{
+				id: "31272DF33CE58D37"
+				item: "refinedstorage:crafter_manager"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["530C970465433639"]
+			id: "5F33B3A33EF661F7"
+			subtitle: "That was an awful joke, I apologise..."
+			tasks: [{
+				id: "26F1C89F387CB947"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			title: "It's a Grid, for Fluids! A Fluid Grid!"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5F33B3A33EF661F7"
+				"0E6006FD8AD92030"
+			]
+			hide_dependency_lines: true
+			id: "27A75FFD8C498830"
+			size: 0.75d
+			tasks: [{
+				id: "135F7E286FA0A139"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 6.375d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F33B3A33EF661F7"
+				"6B4082DA3679FA5D"
+			]
+			hide_dependency_lines: true
+			id: "0AB64C7A61AB2A06"
+			size: 0.75d
+			tasks: [{
+				id: "6653179E61ACB73E"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 7.875d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F33B3A33EF661F7"
+				"7F87E24C41B8E866"
+			]
+			hide_dependency_lines: true
+			id: "1A6144B63AF378BA"
+			size: 0.75d
+			tasks: [{
+				id: "19A582F7DEDCE645"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F33B3A33EF661F7"
+				"37A769680FCB76DA"
+			]
+			hide_dependency_lines: true
+			id: "01755549769EABAC"
+			size: 0.75d
+			tasks: [{
+				id: "3890C3026E50653E"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F33B3A33EF661F7"
+				"25CFC56836B11D04"
+			]
+			hide_dependency_lines: true
+			id: "5486667F61740549"
+			optional: true
+			size: 0.75d
+			tasks: [{
+				id: "29BC02AAE1219132"
+				item: "extradisks:16384k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5F33B3A33EF661F7"
+				"3E8F95CB3ACCEE95"
+			]
+			hide_dependency_lines: true
+			id: "2E344FABD4113B13"
+			optional: true
+			size: 0.75d
+			tasks: [{
+				id: "090F0D6D8A11EF74"
+				item: "extradisks:65536k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5F33B3A33EF661F7"
+				"0A539BB50D91825A"
+			]
+			hide_dependency_lines: true
+			id: "26BADD0376D9D298"
+			optional: true
+			size: 0.75d
+			tasks: [{
+				id: "302C67FEF5719092"
+				item: "extradisks:262144k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5F33B3A33EF661F7"
+				"7D69AEDE912D15FF"
+			]
+			hide_dependency_lines: true
+			id: "409ACC13B09D1CAF"
+			optional: true
+			size: 0.75d
+			tasks: [{
+				id: "4E25E45C28DFF169"
+				item: "extradisks:1048576k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5F33B3A33EF661F7"
+				"42D106072CA10B66"
+			]
+			hide_dependency_lines: true
+			id: "4D382E2FEB639D18"
+			optional: true
+			size: 0.75d
+			tasks: [{
+				id: "459A2EC9765645E5"
+				item: "extradisks:infinite_fluid_storage_part"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+	]
+	title: "Refined Storage"
+}

@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "origins"
+	group: "788EFC6477D4B0DD"
+	icon: "origins:orb_of_origin"
+	id: "3074EF84E90AD9CD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Every single person (if applicable) has had their own custom origin specifically tailored for them!"
+				"Additionally, I plan to add an &a&lUpgraded&r version of each Origin into the pack in the future, so you may see Quests appear here detailing how each person would upgrade their respective Origins!"
+			]
+			id: "76E0F9EA049DFA29"
+			subtitle: "Everyone is unique?"
+			tasks: [{
+				id: "6D11DD49EA8F3EB5"
+				title: "Original Origins, huh."
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:ender_eye"
+			id: "6BE12E97E8E2F38E"
+			tasks: [
+				{
+					id: "0CE46E3787B7AE54"
+					title: "JaffaJace - Enderlytrian"
+					type: "checkmark"
+				}
+				{
+					id: "65EB1B663ACE58F5"
+					points: true
+					type: "xp"
+					value: 255365L
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "4C4A67F33C4131D4"
+			tasks: [{
+				id: "223E607C5D2EC831"
+				title: "KR1M20N - Miss Circle"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	title: "Origins"
+}

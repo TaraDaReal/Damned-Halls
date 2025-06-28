@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "38D80AA02ABDB56E"
+	icon: "mekanism:metallurgic_infuser"
+	id: "32087DFB9A7317E1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["3CC888EE4980B3C4"]
+		hide_until_deps_complete: true
+		id: "51AD7C01C888128A"
+		subtitle: "You will need quite a bit of this, so stock up!"
+		tasks: [{
+			count: 16L
+			id: "09FC4884EBC2767A"
+			item: { Count: 16, id: "mekanism:raw_osmium" }
+			type: "item"
+		}]
+		title: "The Starter Material"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Mekanism"
+}

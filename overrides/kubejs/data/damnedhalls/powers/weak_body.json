@@ -1,0 +1,11 @@
+{
+    "name": "§2§nWeaker Body",
+    "description": "You lil goober, less health for you.",
+    "type": "apoli:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "name": "Fragile health reduction",
+        "operation": "addition",
+        "value": -4.0
+    }
+}

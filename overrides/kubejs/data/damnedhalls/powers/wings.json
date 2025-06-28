@@ -1,0 +1,12 @@
+{
+    "name": "§2§nWings",
+    "description": "You have a natural pair of wings.",
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "badges": [
+        {
+            "type": "origins:sprite",
+            "sprite": "textures/item/elytra.png"
+        }
+    ]
+}

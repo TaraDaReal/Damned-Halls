@@ -1,0 +1,158 @@
+{
+	autofocus_id: "4D64DDA0FD2FA763"
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "a"
+	group: "788EFC6477D4B0DD"
+	icon: "minecraft:oak_sign"
+	id: "62AE68F449BE361B"
+	images: [{
+		height: 2.5d
+		image: "kubejs:item/damned_halls"
+		rotation: 0.0d
+		width: 2.5d
+		x: 0.0d
+		y: -3.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Hello, and welcome to the &4Damned Halls&r modpack!"
+				"This is a pack that i am meticulously building myself with blood, sweat and tears, so please, if you have any ideas, let me know :'D"
+				""
+				"Anyways, I hope you enjoy your stay! This is a mostly Technology-focused pack, although what you focus on is entirely your choice! Most things are unchanged, though a few end-game recipes and such will be slightly altered just to avoid breaking the progression TOO much."
+				""
+				"If you have any ideas, suggestions or anything of the sort, please feel free to contact me on &bDiscord&r, under &1@jaffajace&r."
+			]
+			id: "4D64DDA0FD2FA763"
+			subtitle: "In The Halls Of The Damned..."
+			tasks: [{
+				id: "6CF3049DBCA80127"
+				title: "Damned Halls"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D64DDA0FD2FA763"]
+			icon: "immersiveengineering:arc_furnace"
+			id: "5656270ADD31A561"
+			subtitle: "I heard you like Multiblocks?"
+			tasks: [{
+				id: "64D4A99518439CBE"
+				title: "Immersive Engineering"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D64DDA0FD2FA763"]
+			icon: "mekanism:metallurgic_infuser"
+			id: "3CC888EE4980B3C4"
+			subtitle: "Gotta love that \"Hummmmm\"!"
+			tasks: [{
+				id: "6AA045703CCB2EF6"
+				title: "Mekanism"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D64DDA0FD2FA763"]
+			icon: "refinedstorage:crafting_grid"
+			id: "68108D83752F27D6"
+			subtitle: "Because who enjoys having 50 thousand chests around their house?"
+			tasks: [{
+				id: "290E9B34303AA6EF"
+				title: "Refined Storage"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D64DDA0FD2FA763"]
+			icon: "origins:orb_of_origin"
+			id: "29AAEB75CD4C9309"
+			subtitle: "Woah, everyone's special!"
+			tasks: [{
+				id: "737BE7AFA68A8442"
+				title: "Origins"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D64DDA0FD2FA763"]
+			icon: "powah:uraninite"
+			id: "5B4433D5D43167DA"
+			subtitle: "Need power? Not anymore!"
+			tasks: [{
+				id: "0B1E46088F27593C"
+				title: "Powah!"
+				type: "checkmark"
+			}]
+			title: "Powah!"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D64DDA0FD2FA763"]
+			icon: "minecraft:grass_block"
+			id: "1BE7901EECCDFEEF"
+			subtitle: "Now THATS what I call a mountain!"
+			tasks: [{
+				id: "0513A3CA37DEC679"
+				title: "Terratonic"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D64DDA0FD2FA763"]
+			icon: "lightmanscurrency:atm"
+			id: "23721D69042D323E"
+			subtitle: "CHA-CHING!"
+			tasks: [
+				{
+					id: "4BD3A50511CDB040"
+					title: "Lightman's Currency"
+					type: "checkmark"
+				}
+				{
+					id: "62FD5A5A49D6A8F9"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D64DDA0FD2FA763"]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "7401EB7D9B39A9C0"
+			subtitle: "JCJensen, in SPAAAAAAAAAACEEEEEEE!!!!!!!!!!!!"
+			tasks: [{
+				id: "6E2AD6D8B7DD9CFD"
+				title: "a"
+				type: "checkmark"
+			}]
+			title: "Ad Astra"
+			x: -1.5d
+			y: -1.5d
+		}
+	]
+	title: "Information"
+}

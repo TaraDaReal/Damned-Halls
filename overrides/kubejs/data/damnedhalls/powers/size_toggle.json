@@ -1,0 +1,13 @@
+{
+    "name":"§2§nSize Shifter",
+    "description":"You possess an incredible ability to change size at will.",
+    "type":"origins:toggle",
+    "entity_action": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.use"
+        },
+        "power": "damnedhalls:size_toggle"
+    }
+}

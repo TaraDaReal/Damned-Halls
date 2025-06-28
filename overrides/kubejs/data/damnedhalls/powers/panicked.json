@@ -1,0 +1,19 @@
+{
+    "name": "§2§nPanicked",
+    "description": "You're quite jumpy, so you get all panicky when you take damage.",
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "amplifier": 1,
+            "duration": 100
+        }
+    },
+    "badges": [
+        {
+            "type": "origins:sprite",
+            "sprite": "artifacts:textures/item/panic_necklace.png"
+        }
+    ]
+}

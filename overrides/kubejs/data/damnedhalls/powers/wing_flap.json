@@ -1,0 +1,23 @@
+{
+    "name": "§2§nWing Flap",
+    "description": "You can consistently flap your wings to keep yourself airborne.",
+    "type": "origins:launch",
+    "cooldown": 5,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 4
+    },
+    "sound": "minecraft:entity.parrot.fly",
+    "speed": 0.5,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    },
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "Activate with %s."
+        }
+    ]
+}

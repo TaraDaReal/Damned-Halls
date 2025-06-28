@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "damnedhalls:panicked",
+        "damnedhalls:superhero_landing",
+        "damnedhalls:wings",
+        "damnedhalls:weakest_body",
+        "origins:ender_particles"
+    ],
+    "order": 1,
+    "impact": 3,
+    "icon": {
+        "item": "minecraft:cobblestone"
+    },
+    "name": "§5§l§oEnderlytrian",
+    "description": "Custom Origin created for JaffaJace."
+}

@@ -1,0 +1,11 @@
+{
+    "powers": [
+    ],
+    "order": 1,
+    "impact": 0,
+    "icon": {
+        "item": "minecraft:cobblestone"
+    },
+    "name": "DieWhereULie",
+    "description": "Custom Origin created for DieWhereULie."
+}

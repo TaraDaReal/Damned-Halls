@@ -1,0 +1,15 @@
+{
+    "replace": true,
+    "origins": [
+        "damnedhalls:human",
+        "damnedhalls:jaffajace",
+        "damnedhalls:krimson",
+        "damnedhalls:reaper",
+        "damnedhalls:jax",
+        "damnedhalls:die",
+        "damnedhalls:arctic",
+        "damnedhalls:slash",
+        "damnedhalls:limey"
+    ],
+    "allow_random": false
+}

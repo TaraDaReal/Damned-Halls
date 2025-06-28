@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "damnedhalls:water_speed",
+        "damnedhalls:small_fish",
+        "damnedhalls:weaker_body"
+    ],
+    "order": 1,
+    "impact": 3,
+    "icon": {
+        "item": "cod"
+    },
+    "name": "§9§oFishwalker",
+    "description": "Custom Origin created for Slash_Zero_X.\n§c§lWIP!"
+}

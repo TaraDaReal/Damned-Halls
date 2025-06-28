@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "38D80AA02ABDB56E"
+	id: "67CBCAC893412155"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Immersive Engineering"
+}

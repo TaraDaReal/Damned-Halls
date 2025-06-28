@@ -1,0 +1,23 @@
+{
+    "type": "origins:action_over_time",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "damnedhalls:size_toggle"
+    },
+    "entity_action":{
+        "type":"origins:and",
+        "actions": [
+            {
+                "type":"origins:execute_command",
+                "command":"/scale set pehkui:height 0.01 @s"
+
+            },
+            {
+                "type":"origins:execute_command",
+                "command":"/scale set pehkui:width 0.25 @s"
+            }
+        ]
+    },
+    "interval": 20,
+    "hidden":true
+}
