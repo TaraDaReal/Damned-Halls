@@ -7,6 +7,7 @@ on:
 
 jobs:
   build-and-package:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     steps:
@@ -14,21 +15,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Read name and version from manifest.json to name the final zip file
-      - name: Read package info from manifest.json
+      #  Read info from manifest.json and prepare the final artifact name
+      - name: Prepare Variables
+        id: prep
         run: |
           MOD_NAME=$(jq -r '.name' manifest.json)
           MOD_VERSION=$(jq -r '.version' manifest.json)
+          
+          SANITIZED_NAME=$(echo "$MOD_NAME" | tr ' ' '-')
+          
+          ARTIFACT_NAME="${SANITIZED_NAME}-${MOD_VERSION}"
+          
+          echo "Final artifact name will be: $ARTIFACT_NAME"
+          
+          echo "ARTIFACT_NAME=${ARTIFACT_NAME}" >> "$GITHUB_ENV"
 
-          echo "MOD_NAME=${MOD_NAME}" >> $GITHUB_ENV
-          echo "MOD_VERSION=${MOD_VERSION}" >> $GITHUB_ENV
-
-      # Upload the specific files and folders as a zipped artifact
       - name: Create and Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          # This name becomes the final .zip filename (e.g., Damned-Halls-0.1.0.zip)
-          name: ${{ replace(env.MOD_NAME, ' ', '-') }}-${{ env.MOD_VERSION }}
+          name: ${{ env.ARTIFACT_NAME }}
           
           path: |
             overrides/
