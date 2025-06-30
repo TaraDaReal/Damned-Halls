@@ -51,6 +51,11 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "lightmanscurrency": {
+    "model_variant": true,
+    "model_variant.locked": false,
+    "paygate": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -79,7 +84,6 @@
     "mod_name": true
   },
   "apotheosis": {
-    "adventure": true,
     "ench": true,
     "spawner": true
   },
