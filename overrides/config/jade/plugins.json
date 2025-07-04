@@ -5,8 +5,8 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -51,14 +51,11 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-<<<<<<< Updated upstream
   "lightmanscurrency": {
     "model_variant": true,
     "model_variant.locked": false,
     "paygate": true
   },
-=======
->>>>>>> Stashed changes
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -68,6 +65,9 @@
     "exact_block": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "tombstone": {
+    "graves": true
   },
   "jadeaddons.mcjtylib": {
     "jadeaddons": true
@@ -87,18 +87,29 @@
     "mod_name": true
   },
   "apotheosis": {
-<<<<<<< Updated upstream
-=======
-    "adventure": true,
->>>>>>> Stashed changes
     "ench": true,
     "spawner": true
   },
   "balm": {
     "jade": true
   },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
+  },
+  "jadeaddons.lootr": {
+    "info": true
   },
   "mekanism": {
     "infuse_type": true,
@@ -109,9 +120,6 @@
     "slurry": true,
     "energy": true,
     "tooltip_renderer": true
-  },
-  "jadeaddons.lootr": {
-    "info": true
   },
   "pipez": {
     "pipe": true

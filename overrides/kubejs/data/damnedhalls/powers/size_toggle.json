@@ -1,5 +1,5 @@
 {
-    "name":"§2§nSize Shifter",
+    "name":"§b§nSize Shifter",
     "description":"You possess an incredible ability to change size at will.",
     "type":"origins:toggle",
     "entity_action": {
@@ -9,5 +9,12 @@
             "key": "key.use"
         },
         "power": "damnedhalls:size_toggle"
-    }
+    },
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/toggle.png",
+            "text": "Toggle with %s."
+        }
+    ]
 }

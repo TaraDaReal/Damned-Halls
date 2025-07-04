@@ -2,7 +2,8 @@
     "powers": [
         "damnedhalls:tall",
         "damnedhalls:powerful",
-        "origins:carnivore"
+        "origins:carnivore",
+        "damnedhalls:persist_size"
 
     ],
     "order": 1,

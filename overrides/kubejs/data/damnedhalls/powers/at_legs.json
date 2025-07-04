@@ -1,0 +1,14 @@
+{
+    "name": "§2§nStrong Legs",
+    "description": "You realize that Broken legs would be insufferable to you, so you worked on making your legs stronger.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:is_fall"
+        },
+    "modifier": {
+        "name": "Resistant to falling",
+        "operation": "multiply_total",
+        "value": -0.5
+    }
+}

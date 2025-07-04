@@ -6,7 +6,6 @@
 	#Default: 2147483647
 	itemTraderRenderLimit=2147483647
 	
-<<<<<<< Updated upstream
 	#A list of item ids or item tags that should be rendered by Item Traders at a different scale.
 	#Should be formatted as "namespace:item_id;SCALE" where SCALE is decimal number between 0.0 and 1.0 (exclusive)
 	#Scale of 1.0 will be drawn at full size, Scale of 0.0 will not draw at all
@@ -23,8 +22,6 @@
 	#Default: true
 	gachaMachineFancyGraphics=true
 	
-=======
->>>>>>> Stashed changes
 #Time Formatting Settings
 [time]
 	#How Notification Timestamps are displayed.
@@ -109,7 +106,6 @@
 	#Default: true
 	notificationsInChat=true
 	
-<<<<<<< Updated upstream
 #Tax Warning Settings
 [tax_warnings]
 	#Whether you should recieve a message in chat whenever you place a machine when server-wide taxes are enabled
@@ -120,8 +116,6 @@
 	#Default: true
 	playerTaxWarning=true
 	
-=======
->>>>>>> Stashed changes
 #Slot Machine Animation Settings
 [slot_machine]
 	#The number of Minecraft ticks the slot machine animation will last.

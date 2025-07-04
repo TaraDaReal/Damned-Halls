@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "JaffaJace",
+      "uniqueId": "48e71f3b-8f7f-4c0e-a00d-5878e1c61144"
+    },
+    "time": 1751651381375,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/H211yWgnHe"
+    }
+  }
+]

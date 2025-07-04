@@ -115,6 +115,22 @@
 	[origins."damnedhalls:arctic"]
 		enabled = true
 		"damnedhalls:explode_immune" = true
+		"damnedhalls:at_speed" = true
+		"damnedhalls:at_resistance" = true
+		"damnedhalls:at_armor" = true
+		"damnedhalls:at_fists" = true
+		"damnedhalls:at_tormented" = true
+		"damnedhalls:at_legs" = true
+		"damnedhalls:at_carnivore" = true
+		"damnedhalls:at_tall" = true
+		"damnedhalls:at_bad_armor" = true
+		"damnedhalls:at_no_tools" = true
+		"damnedhalls:at_banished" = true
+		"damnedhalls:at_golem_aggro" = true
+		"damnedhalls:at_charred" = true
+		"damnedhalls:persist_size" = true
+		"damnedhalls:at_lunge" = true
+		"damnedhalls:at_instincts" = true
 
 	[origins."damnedhalls:jax"]
 		enabled = true
@@ -123,6 +139,7 @@
 		"damnedhalls:puddle_mode" = true
 		"damnedhalls:normal_mode" = true
 		"damnedhalls:weakest_body" = true
+		"damnedhalls:persist_size" = true
 
 	[origins."damnedhalls:reaper"]
 		enabled = true
@@ -142,6 +159,7 @@
 		"damnedhalls:powerful" = true
 		"damnedhalls:carnivore" = true
 		"origins:carnivore" = true
+		"damnedhalls:persist_size" = true
 
 	[origins."damnedhalls:jaffajace"]
 		enabled = true
@@ -150,12 +168,14 @@
 		"damnedhalls:wings" = true
 		"damnedhalls:weakest_body" = true
 		"origins:ender_particles" = true
+		"damnedhalls:wing_flap" = true
 
 	[origins."damnedhalls:slash"]
 		enabled = true
 		"damnedhalls:water_speed" = true
 		"damnedhalls:small_fish" = true
 		"damnedhalls:weaker_body" = true
+		"damnedhalls:persist_size" = true
 
 	[origins."damnedhalls:limey"]
 		enabled = true
@@ -166,4 +186,11 @@
 		"damnedhalls:weaker_body" = true
 		"damnedhalls:weak_body" = true
 		"origins:velvet_paws" = true
+		"damnedhalls:persist_size" = true
+
+	[origins."damnedhalls:toll"]
+		enabled = true
+		"damnedhalls:attack_speed" = true
+		"damnedhalls:hungry" = true
+		"damnedhalls:slow_moving" = true
 

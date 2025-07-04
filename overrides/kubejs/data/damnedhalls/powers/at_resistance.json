@@ -1,0 +1,31 @@
+{
+    "name": "§2§nResistance",
+    "description": "You have developed Hard Skin and Fur to resist attacks they throw at you.",
+    "type":"origins:and",
+        "actions": [
+            {
+                "type": "origins:attribute",
+                "modifier": {
+                    "attribute": "puffish_attributes:melee_resistance",
+                    "operation": "multiply_base",
+                    "value": 0.25
+                }
+            },
+            {
+                "type": "origins:attribute",
+                "modifier": {
+                    "attribute": "puffish_attributes:ranged_resistance",
+                    "operation": "multiply_base",
+                    "value": 0.25
+                }
+            },
+            {
+                "type": "origins:attribute",
+                "modifier": {
+                    "attribute": "puffish_attributes:magic_resistance",
+                    "operation": "multiply_base",
+                    "value": 0.15
+                }
+            }
+        ]
+}

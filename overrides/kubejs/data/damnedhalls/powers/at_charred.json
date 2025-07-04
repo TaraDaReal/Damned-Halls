@@ -1,0 +1,14 @@
+{
+    "name": "§4§nCharred",
+    "description": "Due to your Fur, you are quite susceptible to flames.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:is_fire"
+        },
+    "modifier": {
+        "name": "Susceptible to fire",
+        "operation": "multiply_total",
+        "value": 1
+    }
+}

@@ -3,7 +3,8 @@
         "damnedhalls:size_toggle",
         "damnedhalls:normal_mode",
         "damnedhalls:puddle_mode",
-        "damnedhalls:weakest_body"
+        "damnedhalls:weakest_body",
+        "damnedhalls:persist_size"
     ],
     "order": 1,
     "impact": 1,

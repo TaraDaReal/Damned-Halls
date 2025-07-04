@@ -3,7 +3,17 @@
     "description":"Due to your watery circumstances, you are a smaller size than most.",
     "type": "origins:action_on_callback",
     "entity_action_chosen": {
-        "type": "origins:execute_command",
-        "command": "scale set pehkui:base 0.74 @s"
+        "type":"origins:and",
+        "actions": [
+            {
+                "type":"origins:execute_command",
+                "command":"/scale set pehkui:base 0.74 @s"
+
+            },
+            {
+                "type":"origins:execute_command",
+                "command":"/scale set pehkui:jump_height 1.25 @s"
+            }
+        ]
     }
 }

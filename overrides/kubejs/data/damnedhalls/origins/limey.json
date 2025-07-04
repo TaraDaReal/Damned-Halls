@@ -4,7 +4,8 @@
         "origins:scare_creepers",
         "origins:water_vulnerability",
         "damnedhalls:weak_body",
-        "origins:velvet_paws"
+        "origins:velvet_paws",
+        "damnedhalls:persist_size"
     ],
     "order": 1,
     "impact": 1,

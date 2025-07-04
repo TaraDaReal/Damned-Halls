@@ -9,7 +9,8 @@
         "damnedhalls:die",
         "damnedhalls:arctic",
         "damnedhalls:slash",
-        "damnedhalls:limey"
+        "damnedhalls:limey",
+        "damnedhalls:toll"
     ],
     "allow_random": false
 }

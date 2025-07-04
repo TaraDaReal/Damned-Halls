@@ -1,0 +1,12 @@
+{
+    "name": "§4§nBanished",
+    "description": "Villagers HATE you and are scared of you, you HATE them for what they made you do, and so do the Golems!",
+    "type": "origins:prevent_entity_use",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:villager"
+        }
+    }
+}

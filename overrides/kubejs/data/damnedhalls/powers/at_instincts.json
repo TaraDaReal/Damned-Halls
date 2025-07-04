@@ -1,0 +1,66 @@
+{
+    "name": "§b§nInstincts",
+    "description": "You learned how to grab the scents of your prey when they hid away, allowing you to see them no matter where they are.",
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 15,
+        "start_value": 0
+    },
+    "reduce": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_resource",
+            "operation": "add",
+            "change": -1
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_resource",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "interval": 20
+    },
+    "glow": {
+        "type": "origins:entity_glow",
+        "red": 1.0,
+        "green": 0.0,
+        "blue": 0.0,
+        "bientity_condition": {
+            "type": "origins:distance",
+            "comparison": "<",
+            "compare_to": 25
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_resource",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "instincts": {    
+        "type": "origins:active_self",
+        "cooldown": 1200,
+        "key":"key.origins.secondary_active",
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 4
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_resource",
+            "operation": "set",
+            "change": 15
+        },
+        "badges": [
+            {
+                "type": "origins:keybind",
+                "sprite": "origins:textures/gui/badge/active.png",
+                "text": "Activate with %s."
+            }
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "§4§nQuick Metabolism",
+    "description": "With your speed, you get hungrier, faster.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "name": "Increased exhaustion",
+        "operation": "multiply_base",
+        "value": 2.0
+    }
+
+}

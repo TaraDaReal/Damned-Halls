@@ -1,0 +1,22 @@
+{
+    "name": "§b§nLunge",
+    "description": "You learned that you can shift your weight to throw you forwards, lunging at and Pouncing on your Prey, inflicting Damage, and potentially death, on them.",
+    "type": "origins:active_self",
+    "cooldown": 150,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 23
+    },
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "z": 2,
+        "space": "local"
+    },
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "Activate with %s."
+        }
+    ]
+}
