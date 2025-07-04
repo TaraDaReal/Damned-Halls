@@ -2,8 +2,8 @@
     "powers": [
         ""
     ],
-    "order": 10,
-    "impact": 0,
+    "order": 1,
+    "impact": 2,
     "icon": {
         "item": "create:andesite_alloy"
     },
