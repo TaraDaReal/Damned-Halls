@@ -149,10 +149,13 @@ debugLevel=0
 #Villager Related Settings
 #Note: Any changes to villagers requires a full reboot to be applied due to how Minecraft/Forge registers trades.
 [villagers]
+<<<<<<< Updated upstream
 	#Whether Piglins will accept gold coins as a valid bartering item
 	#Default: true
 	piglinsBarterCoins=true
 	
+=======
+>>>>>>> Stashed changes
 	#Whether the wandering trader will have additional trades that allow you to buy misc items with money.
 	#Default: true
 	addCustomWanderingTrades=true

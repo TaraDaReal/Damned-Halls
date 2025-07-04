@@ -51,11 +51,14 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+<<<<<<< Updated upstream
   "lightmanscurrency": {
     "model_variant": true,
     "model_variant.locked": false,
     "paygate": true
   },
+=======
+>>>>>>> Stashed changes
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -84,6 +87,10 @@
     "mod_name": true
   },
   "apotheosis": {
+<<<<<<< Updated upstream
+=======
+    "adventure": true,
+>>>>>>> Stashed changes
     "ench": true,
     "spawner": true
   },
