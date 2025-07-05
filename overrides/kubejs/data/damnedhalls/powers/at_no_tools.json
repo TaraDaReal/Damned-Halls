@@ -1,0 +1,20 @@
+{
+    "name": "§4§nClaws",
+    "description": "Due to your hands being formed like such, you cannot use a shield at all... or bows.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient":
+        [
+            {
+                "tag": "forge:tools/shields"
+            },
+            {
+                "item": "artifacts:umbrella"
+            },
+            {
+                "tag": "forge:bows"
+            }
+        ]
+    }
+}

@@ -1,11 +1,27 @@
 {
     "powers": [
+        "damnedhalls:at_lunge",
+        "damnedhalls:at_instincts",
+        "damnedhalls:at_speed",
+        "damnedhalls:at_resistance",
+        "damnedhalls:at_armor",
+        "damnedhalls:at_fists",
+        "damnedhalls:at_tormented",
+        "damnedhalls:at_legs",
+        "damnedhalls:at_tall",
+        "damnedhalls:at_carnivore",
+        "damnedhalls:at_bad_armor",
+        "damnedhalls:at_no_tools",
+        "damnedhalls:at_banished",
+        "damnedhalls:at_golem_aggro",
+        "damnedhalls:at_charred",
+        "damnedhalls:persist_size"
     ],
     "order": 1,
-    "impact": 0,
+    "impact": 3,
     "icon": {
-        "item": "cobbled_deepslate"
+        "item": "wild_armor_trim_smithing_template"
     },
-    "name": "Arctic58",
-    "description": "Custom Origin created for Arctic58.\n§c§lWIP!"
+    "name": "THE FORESTED OUTCAST",
+    "description": "Custom Origin created for Arctic58.\n\nThey called you a MONSTER from your unimpulsive feast upon those who had wronged you. They called you an INCORRECTION, an IMPERFECTION to Society and Humanity, They Outcasted you, BANISHED YOU. and denied you ever EXISTED. Taking refuge within the forest that surrounded their little village, and claimed it as your territory. Yet they still Intruded. and repeated the process. They started calling you a Myth, an Urban Legend, a warning. They trifled with you for the last time. show them TRUE PAIN. show them the SUFFERING. THEY. CAUSED."
 }

@@ -3,5 +3,6 @@
     "entity_action_chosen": {
         "type": "origins:execute_command",
         "command": "scale persist set true"
-    }
+    },
+    "hidden":true
 }

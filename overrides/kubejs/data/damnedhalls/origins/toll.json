@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "damnedhalls:attack_speed",
+        "damnedhalls:hungry",
+        "damnedhalls:slow_moving"
+    ],
+    "order": 1,
+    "impact": 0,
+    "icon": {
+        "item": "sugar"
+    },
+    "name": "fast attacking origin",
+    "description": "Custom Origin created for WhackyWarrior62.\n§c§lThis man developed a weird genetic deformity, being much faster in the upper body, but slower in the lower body."
+}

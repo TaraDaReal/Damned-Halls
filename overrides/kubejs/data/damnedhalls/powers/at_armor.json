@@ -1,0 +1,10 @@
+{
+    "name": "§2§nNatural Armour",
+    "description": "Because of your said Hard Skin and Fur, you have a Natural Armour.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": 5.0
+    }
+}

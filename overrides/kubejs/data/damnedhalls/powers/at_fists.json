@@ -1,0 +1,19 @@
+{
+    "name": "§2§nClaws",
+    "description": "you have Claws as natural weapons, doesn't stop you from using (most) man made weapons though.",
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "multiply_total",
+        "value": 1,
+        "name": "Increase attack damage"
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:empty"
+        }
+    }
+}
