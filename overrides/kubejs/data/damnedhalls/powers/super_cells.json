@@ -1,0 +1,9 @@
+{
+  "name": "Protective Alloy™",
+  "description": "Excessive alloy consumption has thickened your cells, making you immune to radiation and temperature extremes.",
+  "type": "origins:immunity",
+  "damage_source": {
+    "type": "origins:damage_type",
+    "damage_types": ["fire", "lava", "in_fire", "on_fire", "mekanism:radiation"]
+  }
+}
