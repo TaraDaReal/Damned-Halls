@@ -1,6 +1,12 @@
 {
     "powers": [
-        ""
+        "damnedhalls:asian_height",
+        "damnedhalls:buddhist_health",
+        "damnedhalls:iron_rich_food",
+        "damnedhalls:no_meat",
+        "damnedhalls:super_cells",
+        "damnedhalls:tasty_alloy",
+        "damnedhalls:persist_size",
     ],
     "order": 1,
     "impact": 2,
