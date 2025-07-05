@@ -1,0 +1,39 @@
+{
+  "type": "origins:multiple",
+  "powers": [
+    {
+      "type": "origins:edible_item",
+      "name": "Tasty Alloy Ingots",
+      "description": "Nihon otoko likes eating andesite alloy.",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "create:andesite_alloy"
+        }
+      },
+      "food_component": {
+        "hunger": 4,
+        "saturation": 1.0,
+        "meat": true
+      },
+      "use_action": "eat"
+    },
+    {
+      "type": "origins:edible_item",
+      "name": "Tasty Alloy Blocks",
+      "description": "Nine times the flavor!",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "create:andesite_alloy_block"
+        }
+      },
+      "food_component": {
+        "hunger": 36,
+        "saturation": 9.0,
+        "meat": true
+      },
+      "use_action": "eat"
+    }
+  ]
+}
