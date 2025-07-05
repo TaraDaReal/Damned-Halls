@@ -14,7 +14,7 @@
       "food_component": {
         "hunger": 4,
         "saturation": 1.0,
-        "meat": true
+        "meat": false
       },
       "use_action": "eat"
     },
@@ -31,7 +31,7 @@
       "food_component": {
         "hunger": 36,
         "saturation": 9.0,
-        "meat": true
+        "meat": false
       },
       "use_action": "eat"
     }
