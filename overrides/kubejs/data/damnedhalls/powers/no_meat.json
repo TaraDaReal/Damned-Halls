@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Buddhism",
+  "description": "Now cruelty free!"
+  "item_condition": {
+    "type": "origins:food",
+    "food": {
+      "meat": true
+    }
+  }
+}
