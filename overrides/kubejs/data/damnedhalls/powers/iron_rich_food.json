@@ -1,0 +1,37 @@
+{
+  "type": "origins:multiple",
+  "powers": [
+    {
+      "type": "origins:edible_item",
+      "name": "Iron-rich vegetables",
+      "description": "You find beetroots more nutritious.",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:beetroot"
+        }
+      },
+      "food_component": {
+        "hunger": 3,
+        "saturation": 1.5
+      },
+      "use_action": "eat"
+    },
+    {
+      "type": "origins:edible_item",
+      "name": "Metal soup",
+      "description": "Even beetroot soup contains your daily metal.",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:beetroot_soup"
+        }
+      },
+      "food_component": {
+        "hunger": 8,
+        "saturation": 9.6
+      },
+      "use_action": "eat"
+    }
+  ]
+}
