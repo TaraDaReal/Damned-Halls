@@ -1,0 +1,9 @@
+{
+  "name": "Buddhist Health",
+  "description": "So you don't eat meat? ok. Shall god make you less resistant (-2 hearts)",
+  "type": "origins:modify_max_health",
+  "modifier": {
+    "operation": "add",
+    "value": -4
+  }
+}
